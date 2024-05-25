@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { Link } from 'expo-router'
 
 const index = () => {
     return (
         <View style={styles.container}>
-            <Text>Namaste World! 🙏</Text>
+            <Text style={{ color: 'white' }}>Namaste World! 🙏</Text>
+            <Link href="/profile" style={{ color: '#4dafff' }}>Go to Profile</Link>
         </View>
     )
 }
@@ -17,5 +19,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        color: 'white',
+        backgroundColor: '#050505',
     }
 })
