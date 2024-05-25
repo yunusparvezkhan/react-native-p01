@@ -1,4 +1,5 @@
 import { Slot } from 'expo-router'
+import { NativeWindStyleSheet } from "nativewind"
 
 const RootLayout = () => {
   return (
@@ -7,5 +8,9 @@ const RootLayout = () => {
     </>
   )
 }
+
+NativeWindStyleSheet.setOutput({
+  default: "native",
+});
 
 export default RootLayout
