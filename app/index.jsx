@@ -6,7 +6,7 @@ import { images } from '../constants/'
 import CustomButton from '../components/CustomButton'
 import { StatusBar } from 'expo-status-bar'
 
-const index = () => {
+const App = () => {
     return (
         <SafeAreaView className="flex-1 justify-center gap-1 bg-[#161622]" >
             <ScrollView contentContainerStyle={{ height: '100%' }} className="w-full" >
@@ -46,4 +46,4 @@ const index = () => {
     )
 }
 
-export default index
+export default App
