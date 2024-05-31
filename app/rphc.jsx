@@ -11,7 +11,7 @@ const Rphc = () => {
                 <Text className="text-gray-100 text-2xl mb-2" >Rampurhat, West Bengal</Text>
                 <Text className="text-gray-100 text-3xl" >India 🇮🇳</Text>
             </View>
-            <Link href="/" className='py-3 px-8 bg-gray-800 text-gray-200 text-xl'>Go Back</Link>
+            <Link href="/home" className='py-3 px-8 bg-gray-800 text-gray-200 text-xl'>Go Back</Link>
         </View>
     )
 }
