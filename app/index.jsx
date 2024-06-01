@@ -8,9 +8,9 @@ import { StatusBar } from 'expo-status-bar'
 
 const App = () => {
     return (
-        <SafeAreaView className="flex-1 justify-center gap-1 bg-[#161622]" >
-            <ScrollView contentContainerStyle={{ height: '100%' }} className="w-full" >
-                <View className="w-full items-center h-full px-4" >
+        <SafeAreaView className="h-full bg-[#161622]" >
+            <ScrollView contentContainerStyle={{ height: '100%', justifyContent: 'center' }} className="w-full" >
+                <View className="w-full items-center min-h-[85vh] px-4" >
                     <Image source={images.logo} className="w-[130px] h-[84]px" resizeMode='contain' />
                     <Text className="text-xl mb-2 text-gray-300 font-semibold">Welcome to YPK's RNP01</Text>
                     <Text className="text-xl text-gray-300">Engineer: Yunus Parvez Khan</Text>
